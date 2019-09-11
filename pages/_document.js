@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="../static/mstile-144x144.png" />
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossOrigin="anonymous"></link>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossOrigin="anonymous" />
           <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico" />
           <link rel="icon" type="image/png" href="../static/favicon-16x16.png" sizes="16x16" />
           <link rel="icon" type="image/png" href="../static/favicon-32x32.png" sizes="32x32" />
