@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import Maintenance from '../../components/Maintenance';
+import Maintenance from '../components/Maintenance';
 
 export default class Home extends PureComponent {
   render() {
