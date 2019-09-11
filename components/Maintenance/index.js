@@ -10,7 +10,7 @@ class Maintenance extends Component {
             <div className="column is-hidden-mobile flex-vertical-center">
               <img
                 className="ls-main-hero--image"
-                src="../static/assets/MaintenanceMode.png"
+                src="../static/assets/MaintenanceLong.png"
                 width="1200"
               />
             </div>
