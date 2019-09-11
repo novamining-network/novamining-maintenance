@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import NProgress from 'nprogress';
 import Router, { withRouter } from 'next/router';
-import 'styles/styles.scss';
+import '../styles/styles.scss';
 
 const Noop = ({ children }) => children
 
