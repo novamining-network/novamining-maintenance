@@ -6,15 +6,15 @@ class Maintenance extends Component {
     return (
       <section className="hero ls-rainbow-gradient-2 full-height-min flex-vertical-center">
         <div className="hero-body container full-height-min flex-vertical-center">
-          <div className="columns flex-vertical-center">
-            <div className="column is-hidden-mobile flex-vertical-center">
+          <div className="columns">
+            <div className="column is-hidden-mobile">
               <img
                 className="ls-main-hero--image"
                 src="../static/assets/MaintenanceLong.png"
                 width="1200"
               />
             </div>
-            <div className="column is-hidden-tablet flex-vertical-center">
+            <div className="column is-hidden-tablet">
               <img
                 className="ls-main-hero--image"
                 src="../static/assets/MaintenanceSmall.png"
@@ -22,7 +22,7 @@ class Maintenance extends Component {
               />
             </div>
             <br/>
-            <div className="column flex-vertical-center">
+            <div className="column">
               <h2 className="subtitle is-4 has-text-white has-text-centered">
                 Our website is currently down for maintenance 🤓 We're working hard to bring it back online as soon as possible 🚀
               </h2>
