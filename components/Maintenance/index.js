@@ -22,7 +22,7 @@ class Maintenance extends Component {
               />
             </div>
             <br/>
-            <div className"column flex-vertical-center">
+            <div className="column flex-vertical-center">
               <h2 className="subtitle is-4 has-text-white has-text-centered">
                 Our website is currently down for maintenance 🤓 We're working hard to bring it back online as soon as possible 🚀
               </h2>
