@@ -1,0 +1,41 @@
+{
+  "name": "novamining-app",
+  "version": "1.0.0",
+  "description": "NovaMining WebApp with NextJs and Bulma CSS framework",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "prod": "next build && next start",
+    "prettier": "prettier --write '**/*.js{x,}'"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.7.5",
+    "classnames": "^2.2.6",
+    "dotenv": "^8.1.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-bulma-components": "^3.0.1-7",
+    "react-dom": "^16.9.0",
+    "styled-jsx-plugin-sass": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.2.2",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.1.2",
+    "prettier": "^1.18.2"
+  }
+}

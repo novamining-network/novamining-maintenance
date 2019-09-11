@@ -1,0 +1,103 @@
+.ls-social-buttons {
+  margin-top: rem(42);
+}
+.ls-social-icon {
+  display      : inline-block;
+  width        : rem(48);
+  height       : rem(48);
+  margin-right : rem(4);
+
+  .fa-layers {
+    display        : inline-block;
+    width          : rem(48);
+    vertical-align : center;
+  }
+}
+.ls-novamining {
+  transition : $transition-function 0.2s color;
+  color      : $novamining;
+
+  &:hover {
+    color : darken($novamining-hover, 0)
+  }
+}
+.ls-facebook {
+  transition : $transition-function 0.2s color;
+  color      : $facebook;
+
+  &:hover {
+    color : darken($facebook, 10)
+  }
+}
+.ls-linkedin {
+  transition : $transition-function 0.2s color;
+  color      : $linkedin;
+
+  &:hover {
+    color : darken($linkedin, 10)
+  }
+}
+.ls-twitter {
+  transition : $transition-function 0.2s color;
+  color      : $twitter;
+
+  &:hover {
+    color : darken($twitter, 10)
+  }
+}
+.ls-instagram {
+  transition : $transition-function 0.2s color;
+  color      : $instagram;
+
+  &:hover {
+    color : darken($instagram, 10)
+  }
+}
+.ls-youtube {
+  transition : $transition-function 0.2s color;
+  color      : $youtube;
+
+  &:hover {
+    color : darken($youtube, 10)
+  }
+}
+.ls-github {
+  transition : $transition-function 0.2s color;
+  color      : $github;
+
+  &:hover {
+    color : darken($github, 10)
+  }
+}
+.ls-medium {
+  transition : $transition-function 0.2s color;
+  color      : $medium;
+
+  &:hover {
+    color : darken($medium, 10)
+  }
+}
+.ls-telegram {
+  transition : $transition-function 0.2s color;
+  color      : $telegram;
+
+  &:hover {
+    color : darken($telegram, 10)
+  }
+}
+.ls-slack {
+  transition : $transition-function 0.2s color;
+  color      : $slack;
+
+  &:hover {
+    color : darken($slack, 10)
+  }
+}
+.ls-pinterest {
+  transition : $transition-function 0.2s color;
+  color      : $pinterest;
+
+  &:hover {
+    color : darken($pinterest, 10)
+  }
+}

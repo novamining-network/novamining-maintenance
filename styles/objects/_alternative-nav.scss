@@ -1,0 +1,57 @@
+.alternative-nav {
+  box-shadow : none;
+
+  img {
+    pointer-events : none;
+  }
+
+  .navbar-brand {
+    .navbar-item img {
+      max-height : none;
+    }
+  }
+  .navbar-menu {
+    .navbar-end {
+      .navbar-item {
+        transition    : $button-transition;
+        border-radius : 3px;
+        color         : inherit;
+      }
+    }
+  }
+    @media (min-width : $tablet) {
+    a {
+      font-size : rem(16) !important;
+      padding   : rem(14) rem(16);
+      border-radius: 6px !important;
+    }
+  }
+
+  @media (min-width : 1088px) {
+    .navbar, .navbar-menu, .navbar-start, .navbar-end {
+      align-items : center !important;
+    }
+  }
+
+  .alternative-nav--signup {
+    background-color : rgba(0, 0, 0, 0.1);
+  }
+}
+#alternativeNavMenu {
+  @media(max-width : $desktop) {
+    position   : fixed;
+    top        : rem(70);
+    width      : 100%;
+    left       : 0;
+    z-index    : 1;
+    padding    : 0;
+    box-shadow : $button-shadow;
+  }
+}
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .navbar-menu {
+  display: block;
+}

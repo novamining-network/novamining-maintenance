@@ -1,0 +1,14 @@
+.ls-footer-links {
+ li {
+
+ }
+
+  a {
+    transition: $transition-function 0.2s color;
+    color: $grey;
+
+    &:hover, &:active {
+      color: darken($novamining-hover, 0);
+    }
+  }
+}

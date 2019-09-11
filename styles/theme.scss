@@ -1,0 +1,116 @@
+// @import fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+// @import initial variables
+@import '~bulma/sass/utilities/initial-variables';
+@import "~bulma/sass/utilities/functions";
+
+// Override styles - https://bulma.io/documentation/customize/variables/
+// $primary: red;
+// $fullhd: 2000px;
+
+// Redefine some of Bulma colors and variables
+$blue : #377fea;
+$purple : #5c22f8;
+$cyan : #34d998;
+$purple2 : #653dea; 
+$light-blue : #5d95ed;
+$dark : #3e396b;
+$light-grey : rgba($black, 0.5);
+$grey : #b0aebe;
+$orange: #e98f46;
+
+$success: $cyan;
+$card-color : $light-grey;
+$primary : $cyan;
+$primary-invert : $white;
+$info : $white;
+$info-invert : $blue;
+$link : $primary;
+$color-tag : $green;
+$color-main-gradient-left : #5c22f8;
+$color-main-gradient-right : #34d998;
+$color-background-light: #f8faff;
+$color-carousel-bulltes: $blue;
+
+$novamining: #5c22f8;
+$novamining-hover: #34d998;
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #0077b5;
+$instagram: #e1306c;
+$pinterest: #cb2027;
+$youtube: #ff0000;
+$github: #555;
+$medium: #00ab6c;
+$telegram: #0088cc;
+$slack: #e01e5a;
+
+
+$input-border-color: $grey;
+
+$footer-background-color: $white;
+
+// Navbar Colors
+// $navbar-background-color : $blue;
+$navbar-item-hover-background-color : rgba(0, 0, 0, 0.1);
+
+$transition-function : ease-in-out;
+$button-transition : color 0.2s $transition-function, background 0.2s $transition-function;
+$button-shadow : 0 4px 9px rgba(0, 0, 0, 0.3);
+
+// Font variables
+$size-2 : 2rem;
+$size-3 : 1.75rem;
+$family-sans-serif : 'Lato', sans-serif;
+$size-7 : 0.875rem;
+
+// Columns Variables
+$column-gap : 0.8125rem;
+
+// Images dimensions
+$dimensions : 16 24 32 48 64 96 128 159;
+
+// Function to convert pixels to rems
+$baseFontSize : 16;
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels : $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context : $context * 1px;
+  }
+  @return $pixels / $context * 1rem;
+}
+
+// @import derived variables
+@import "~bulma/sass/utilities/derived-variables.sass";
+
+// @import bulma
+@import "~bulma";
+
+// @import "objects";
+@import "./objects/ls-helper";
+@import "./objects/ls-main-hero";
+@import "./objects/ls-banner";
+@import "./objects/ls-button";
+@import "./objects/ls-main-nav-vars";
+@import "./objects/ls-feature-card";
+@import "./objects/ls-features-cards";
+@import "./objects/ls-hero-image";
+@import "./objects/ls-card";
+@import "./objects/ls-cards-grid";
+@import "./objects/ls-hero-icons";
+@import "./objects/ls-price-card";
+@import "./objects/ls-footer";
+@import "./objects/ls-footer-links";
+@import "./objects/ls-round-input";
+@import "./objects/ls-author-card";
+@import "./objects/ls-carousel";
+@import "./objects/ls-form-contact";
+@import "./objects/ls-info-contact";
+@import "./objects/ls-social-icon";
+@import "./objects/ls-item-contact";
+@import "./objects/alternative-nav-vars";
