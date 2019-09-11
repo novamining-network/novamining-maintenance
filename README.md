@@ -1,10 +1,6 @@
-# NextJs Starter
+# NovaMining Maintenance Webapp
 
-> A Starter project for `nextJs` with Bulma CSS framework.
-
-## How to run app
-
-### Run development build
+### Run development build:
 
 ```bash
 yarn
