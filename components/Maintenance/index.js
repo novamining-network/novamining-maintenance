@@ -31,7 +31,7 @@ class Maintenance extends Component {
               <h2 className="subtitle is-5 has-text-white has-text-centered">
                 Do you need any further information or do you have any enquiry? 🤔 Feel free to write us at <Link href="mailto:contact@novamining.io"><a className="has-text-white">contact@novamining.io</a></Link> 🤗
               </h2>
-              <p className="column has-text-centered-mobile">
+              <p className="column has-text-centered">
                 <Link href="https://twitter.com/NovaMining_Net">
                 <a target="_blank" className="ls-social-icon has-text-white">
                   <span className="icon is-large">
