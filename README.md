@@ -14,7 +14,7 @@ yarn build
 yarn start
 ```
 
-### Export as static HTML files
+### Export as static HTML files:
 
 ```
 yarn build
