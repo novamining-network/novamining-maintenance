@@ -1,7 +1,3 @@
-# NextJs Starter
-
-> A Starter project for `nextJs` with Bulma CSS framework.
-
 ## How to run app
 
 ### Run development build
