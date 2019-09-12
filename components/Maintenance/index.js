@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Newsletter from '../Newsletter';
 
 class Maintenance extends Component {
   render() {
     return (
       <section className="hero ls-rainbow-gradient-2 full-height-min flex-vertical-center">
-        <div className="hero-body container full-height-min flex-vertical-center">
+        <div className="hero-body container flex-vertical-center">
           <div className="columns">
             <div className="column is-hidden-mobile">
               <img
@@ -31,6 +32,13 @@ class Maintenance extends Component {
               <h2 className="subtitle is-5 has-text-white has-text-centered">
                 Do you need any further information or do you have any enquiry? 🤔 Feel free to write us at <Link href="mailto:contact@novamining.io"><a className="has-text-white">contact@novamining.io</a></Link> 🤗
               </h2>
+            </div>
+          </div>
+        </div>
+        <Newsletter/>
+        <div className="hero-body container flex-vertical-center">
+          <div className="columns">
+            <div className="column">
               <p className="column has-text-centered">
                 <Link href="https://twitter.com/NovaMining_Net">
                 <a target="_blank" className="ls-social-icon has-text-white">
