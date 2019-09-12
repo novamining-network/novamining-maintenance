@@ -4,14 +4,14 @@ This is the official repository of NovaMining's Maintenance Webapp. It has been 
 
 ## How to run app
 
-### Run development build with:
+### Run development build:
 
 ```
 yarn
 yarn dev
 ```
 
-### Run production build with:
+### Run production build:
 
 ```
 yarn build
