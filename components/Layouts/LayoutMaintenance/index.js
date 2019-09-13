@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
+import { initGA, logPageView } from '../utils/analytics';
 
 class LayoutMaintenance extends Component {
   state = {
@@ -19,6 +20,11 @@ class LayoutMaintenance extends Component {
   componentDidMount = () => {
     this.updateDimensions();
     window.addEventListener('resize', _.throttle(this.updateDimensions, 500));
+      if (!window.GA_INITIALIZED) {
+        initGA()
+        window.GA_INITIALIZED = true
+      }
+      logPageView()
   };
 
   componentWillUnmount = () => {
