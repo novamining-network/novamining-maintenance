@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import { initGA, logPageView } from '../utils/analytics';
+import { initGA, logPageView } from '../utils/analytics.js';
 
 class LayoutMaintenance extends Component {
   state = {
