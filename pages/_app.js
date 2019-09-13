@@ -2,7 +2,8 @@ import App from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import NProgress from 'nprogress';
-import Router, { withRouter } from 'next/router';
+import Router from 'next/router';
+import withGA from "next-ga";
 import '../styles/styles.scss';
 
 const Noop = ({ children }) => children
@@ -39,4 +40,4 @@ class MyApp extends App {
   }
 }
 
-export default withRouter(MyApp);
+export default withGA("UA-99129788-1", Router)(MyApp);

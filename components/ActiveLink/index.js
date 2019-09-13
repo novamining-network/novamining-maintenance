@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'next/router';
+import Router from 'next/router';
 import classnames from 'classnames';
 import Link from 'next/link';
 
@@ -48,4 +48,4 @@ class ActiveLink extends PureComponent {
   }
 }
 
-export default withRouter(ActiveLink);
+export default Router(ActiveLink);
