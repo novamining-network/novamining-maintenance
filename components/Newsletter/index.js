@@ -12,7 +12,7 @@ class Newsletter extends Component {
                 <div className="field ls-round-input has-background-white">
                 <form action="https://novamining.us4.list-manage.com/subscribe/post?u=98e4424acb18fa3d45d1d3ffa&amp;id=a6d65da13c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                     <input className="input has-text-grey" type="email" name="EMAIL" id="mce-EMAIL" placeholder="E-mail address" />
-                    <button type="submit" className="button is-success">
+                    <button type="submit" className="button is-success has-text-white">
                         Subscribe
                     </button>
                 </form>
