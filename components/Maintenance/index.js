@@ -96,6 +96,13 @@ class Maintenance extends Component {
                   </span>
                 </a>
                 </Link>
+                <Link href="https://keybase.io/team/novamining.pub">
+                <a target="_blank" className="ls-social-icon has-text-white">
+                  <span className="icon is-large">
+                    <i className="fab fa-2x fa-keybase"></i>
+                  </span>
+                </a>
+                </Link>
               </p>
             </div>
           </div>
