@@ -44,4 +44,5 @@ build/
 .idea
 .vscode
 novamining-app.code-workspace
+novamining-maintenance.code-workspace
 .env
